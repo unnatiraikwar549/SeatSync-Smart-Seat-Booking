@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\Users\ABC\.gemini\antigravity\scratch\seatsync" -Recurse | Select-Object FullName, Length | Format-Table -AutoSize
